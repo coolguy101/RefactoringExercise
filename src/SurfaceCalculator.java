@@ -1,7 +1,7 @@
 
 // Rename the class to Surface Calculator
 // Create a new package and move this class to a new package
-public class RefactorSample {
+public class SurfaceCalculator {
 
 	public int field1; // Encapsulate this field.
 	

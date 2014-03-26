@@ -25,4 +25,11 @@ public class Movie {
 	public String getTitle() {
 		return _title;
 	}
+
+	public int getFrequentRenterPoints(int _daysRented) {
+		if ((getPriceCode() == Movie.NEW_RELEASE) && _daysRented > 1)
+			return 2;
+		else
+			return 1;
+	}
 }
